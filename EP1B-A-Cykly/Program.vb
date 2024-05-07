@@ -3,14 +3,12 @@ Imports System
 Module Program
   Sub Main(args As String())
     Dim cislo As Integer
-    Dim pocet As Integer = 0
 
-    Do
+    For pocet = 1 To 5
       Console.Write("Zadej èíslo: ")
       cislo = Console.ReadLine
-      pocet = pocet + 1
       Console.WriteLine($"{pocet}. zadané èíslo je {cislo}")
-    Loop Until pocet >= 5
+    Next
 
   End Sub
 End Module
