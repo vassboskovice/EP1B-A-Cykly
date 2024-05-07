@@ -10,7 +10,7 @@ Module Program
       cislo = Console.ReadLine
       pocet = pocet + 1
       Console.WriteLine($"{pocet}. zadané èíslo je {cislo}")
-    Loop While pocet < 5
+    Loop Until pocet >= 5
 
   End Sub
 End Module
